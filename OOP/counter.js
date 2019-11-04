@@ -2,10 +2,11 @@
 
 
 class Counter {
-  constructor(value) {
-    this.clickHandler = this.clickHandler.bind(this);
+  constructor(value, overFlowCallback) {
     this.value = value;
+    this.overFlowCallback = overFlowCallback;
     this.domElement = null;
+    this.clickHandler = this.clickHandler.bind(this);
   }
 
   render() {
@@ -29,8 +30,10 @@ class Counter {
   }
 
   clickHandler(e) {
-    console.log('before increment', e.currentTarget);
-    this.increment();
+    if(++this.value > 9) {
+      this.value = 0;
+      this.overFlowCallback(this);
+    }
     this.updateText();
   }
 }
