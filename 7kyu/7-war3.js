@@ -9,4 +9,20 @@ const numberToLetter = numbers => {
   return numbers.map( cur => table[cur]).join('');
 }
 
+const numberToLetter1 = numbers => {
+  return numbers.map(cur => {
+    if(a === 27) return "!";
+    if(a === 28) return "?";
+    if(a === 29) return " ";
+    return String.fromCharCode(97 + 26 - parseInt(cur));
+  }).join('');
+}
+
+const numberToLetter2 = numbers => {
+  const alphabet = '*zyxwvutsrqponmlkjihgfedcba!? ';
+  return numbers.map(cur => alphabet[cur]).join('');
+}
+
+
+
 console.log(numberToLetter([4,4,19,27]));
