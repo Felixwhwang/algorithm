@@ -1,8 +1,10 @@
-# Codewar
-## Practice Problem
+# Algorithm
+
+An algorithm repository which solving practice problems for fun.
+
+## Codewar
 
 ### 7kyu
-
   - war1 - Progressive Spiral Number Position
   - war2 - Alphabetical Addition
   - war3 - Numbers to letters
