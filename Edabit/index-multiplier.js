@@ -8,3 +8,5 @@
 // // (-3*0 + 0*1 + 8*2 + -6*3)
 // Notes
 // All items in the array will be integers.
+
+const indexMultiplier = arr => arr.reduce( (acc, cur, index) => acc + cur * index, 0);
