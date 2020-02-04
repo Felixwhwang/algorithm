@@ -11,3 +11,11 @@
 // Function should not be case sensitive(as indicated in the second example).
 // Both strings are presented as a single argument in the form of an array.
 // Bonus: Solve this without RegEx.
+
+const letterCheck = arr => {
+  arr = arr.map(cur => cur.toLowerCase());
+  for(let index = 0; index < arr[1].length; index++) {
+    if( arr[0].indexOf( arr[1][index] ) === -1) return false;
+  }
+  return true;
+}
