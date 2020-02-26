@@ -40,3 +40,5 @@ const LCP = (str1, str2) => {
   }
   return result;
 }
+
+console.log(LCP('lees', 'leetcode'));
