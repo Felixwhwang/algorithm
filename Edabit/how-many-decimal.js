@@ -10,3 +10,5 @@
 // Return 0 if the number doesn't have any decimal places (see example #2).
 
 const getDecimalPlaces = str => str.indexOf('.') === -1 ? 0 : str.split('.')[1].length;
+
+console.log(getDecimalPlaces("3.1"));
