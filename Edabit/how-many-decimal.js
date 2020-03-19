@@ -11,4 +11,4 @@
 
 const getDecimalPlaces = str => str.indexOf('.') === -1 ? 0 : str.split('.')[1].length;
 
-console.log(getDecimalPlaces("3.131"));
+console.log(getDecimalPlaces("3.13"));
