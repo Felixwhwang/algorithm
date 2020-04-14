@@ -11,4 +11,4 @@ function alternatingCharacters(s) {
   return result;
 }
 
-console.log(alternatingCharacters('AABBAAA'));
+console.log(alternatingCharacters('AABBAA'));
