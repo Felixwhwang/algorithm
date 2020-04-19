@@ -26,4 +26,4 @@ const filterUnique = arr => {
   }, []);
 }
 
-console.log(filterUnique(["ABCDE", "DDEB", "BED", "CCA", "BAC"]));
+console.log(filterUnique(["ABCD", "DDEB", "BED", "CCA", "BAC"]));
