@@ -17,7 +17,4 @@ const triangle = n => {
   return sum;
 }
 
-console.log(triangle(1));
-console.log(triangle(2));
-console.log(triangle(3));
-console.log(triangle(4));
+console.log(triangle(5));
