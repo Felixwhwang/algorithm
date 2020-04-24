@@ -29,7 +29,6 @@
 //   "Brave New World", "Aldous Huley",
 //   "Of Mice and Men", "John Steinbeck"
 // ]
-// Notes
 // Some of these entries have excess white space.Remove this white space in your final output.
 
 const tidyBooks = arr => {
