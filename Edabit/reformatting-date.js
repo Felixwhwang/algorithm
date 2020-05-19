@@ -23,8 +23,8 @@
 
 const convertDate = date => {
   const day = new Date(date);
-  console.log(day.getMonth());
   return [day.getMonth() + 1, day.getDate(), day.getFullYear()];
 }
 
 console.log(convertDate("02/09/2019"));
+console.log(convertDate("01/09/2020"));
