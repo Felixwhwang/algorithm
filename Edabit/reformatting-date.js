@@ -27,4 +27,4 @@ const convertDate = date => {
 }
 
 console.log(convertDate("02/09/2019"));
-console.log(convertDate("05/09/2021"));
+console.log(convertDate("06/09/2021"));
