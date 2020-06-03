@@ -20,4 +20,4 @@ const removeSmallest = arr => {
   return arr;
 }
 
-console.log(removeSmallest([2, 2, 1, 2, 1, 1, 3]));
+console.log(removeSmallest([2, 2, 1, 2, 1, 1, 3， 1]));
