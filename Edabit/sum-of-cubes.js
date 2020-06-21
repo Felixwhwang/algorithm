@@ -15,4 +15,4 @@
 
 const sumOfCubes = arr => arr.reduce((sum, cur) => sum + Math.pow(cur, 3), 0);
 
-console.log(sumOfCubes([4,5,8]));
+console.log(sumOfCubes([2,5,8]));
