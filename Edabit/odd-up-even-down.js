@@ -17,3 +17,5 @@ const evenOddTransform = (arr, n) => {
     return cur % 2 === 0 ? (-2 * n + cur) : (2 * n + cur);
   });
 }
+
+console.log(evenOddTransform([1, 2, 3], 1));
