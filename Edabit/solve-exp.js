@@ -22,4 +22,4 @@ const solveForExp = (num, result) => {
   return exponent;
 }
 
-console.log( 9 ** 2 );
+console.log( 9 ** 3 );
