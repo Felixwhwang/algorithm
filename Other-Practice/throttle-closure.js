@@ -13,7 +13,7 @@ const fn = () => {
   console.log('Hello');
 }
 
-const f = throttle(fn, 4000);
+const f = throttle(fn, 3000);
 
 f();
 f();
