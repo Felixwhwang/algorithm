@@ -22,4 +22,4 @@ const concat = (...args) => {
   return result;
 }
 
-console.log(concat([1, 2, 3], [4, 5], [6, 7], [8, 12]));
+console.log(concat([1, 2, 4], [4, 5], [6, 7], [8, 12]));
