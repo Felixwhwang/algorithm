@@ -16,4 +16,4 @@ const charCount = (key, str) => {
     return sum;
   }, 0);
 }
-console.log(charCount("s", "Big fat bubble"));
+console.log(charCount("a", "Big fat bubble"));
