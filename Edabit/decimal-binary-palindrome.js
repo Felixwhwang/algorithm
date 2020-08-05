@@ -33,4 +33,4 @@ const palindromeType = num => {
   return 'Neither!';
 }
 
-console.log(palindromeType(493));
+console.log(palindromeType(423));
