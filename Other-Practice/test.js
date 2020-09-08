@@ -9,4 +9,4 @@ const test = num => {
   return result;
 }
 
-console.log(test(100));
+console.log(test(200));
