@@ -97,7 +97,7 @@ const computeScore = arr => {
 }
 console.log(computeScore([1, 2, 4, "X"]));
 console.log(computeScore([1, 2, 4, "X", "+"]));
-console.log(computeScore([1, 2, 4, "Z"]));
+console.log(computeScore([1, 2, 4, "ZZ"]));
 
 /**
  * The Price is Right is a game on tv where contestants win by guessing the monetary
