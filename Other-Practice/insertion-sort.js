@@ -1,4 +1,4 @@
-let a = [1,41,2,1,5,8,9];
+let a = [12,41,2,1,5,8,9];
 
 const insertionSort = array => {
   for(let i = 1; i < array.length; i++) {
