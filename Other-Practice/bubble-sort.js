@@ -10,5 +10,5 @@ const bublesort = array => {
 }
 
 
-let array = [29,3,43,6,5,4,19,1,32,12,3,55,12];
+let array = [9,3,43,6,5,4,19,1,32,12,3,55,12];
 console.log(bublesort(array));
