@@ -108,7 +108,7 @@ class LinkedList {
 const newList = new LinkedList();
 newList.insertFirst(100);
 newList.insertFirst(200);
-
+newList.insertFirst(300);
 newList.insertLast(400);
 newList.insertAtIndex(500, 3);
 newList.getAtIndex(0)
