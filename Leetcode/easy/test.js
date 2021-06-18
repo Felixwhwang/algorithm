@@ -1,7 +1,4 @@
-function test () {
-  let a = {};
-  a[3] = 33;
-  return a;
-}
+let a = [[2,3,4]];
+let [b, c, d] = a[0];
 
-console.log(test());
+console.log(3/2 | 3);
