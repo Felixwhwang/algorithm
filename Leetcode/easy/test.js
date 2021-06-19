@@ -1,4 +1,6 @@
-let a = [[2,3,4]];
-let [b, c, d] = a[0];
-
-console.log(3/2 | 3);
+let map = new Map();
+map.set('a', true);
+console.log(map.get('a'));
+if (map.get('b')) {
+  console.log(`it is ture`);
+}
