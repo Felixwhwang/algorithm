@@ -1,14 +1,11 @@
-let map = new Map();
-map.set('a', true);
-
-var majorityElement = function (nums) {
-  let m = new Map(), halfLen = Math.floor(nums.length / 2);
-  for (let num of nums) {
-    console.log(m.get(num));
-    m.set(num, m.get(num) + 1 || 1);
-    if (m.get(num) > halfLen) return num;
+var moveZeroes = function (nums) {
+  for(let i = nums.length - 1; i >= 0; i--) {
+    if(!nums[i]) {
+      nums.splice(i, 1);
+      nums.push(0);
+    }
   }
+  return nums;
 };
 
-console.log(majorityElement([2,1,2,1,2,1,1,1,4,4,4,4,4,4,4,4]));
-console.log(undefined + 1 || 2);
+console.log(moveZeroes([0,0,1]));
