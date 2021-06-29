@@ -1,5 +1,6 @@
-let a1 = [1,3];
-let a2 = [4,5];
+let a = [1,2,3];
+let b = a.slice();
+a.pop();
 
 
-console.log([...a1]);
+console.log(b);
