@@ -1,14 +1,13 @@
-const insertion = arr => {
-  for(let i = 1; i < arr.length; i++) {
-    let key = arr[i];
-    let j = i - 1;
-    while(j >= 0 && arr[j] > key) {
-      arr[j+1] = arr[j--];
-    }
-    arr[j+1] = key;
-  }
-  return arr;
+const reverse = arr => {
+  return arr.reduce((ini, cur) => {
+    console.log(ini);
+    return cur.reverse();
+  });
 }
 
-
-console.log(insertion([2,3,1,2,9,3,4,12,1]));
+console.log(reverse(
+  [[5, 1, 9, 11],
+  [2, 4, 8, 10],
+  [13, 3, 6, 7],
+  [15, 14, 12, 16]]
+));
