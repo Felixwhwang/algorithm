@@ -1,13 +1,6 @@
-const reverse = arr => {
-  return arr.reduce((ini, cur) => {
-    console.log(ini);
-    return cur.reverse();
-  });
+const test = str => {
+  if(!str.length) return '';
+  if(str.length === 1) return str[0];
 }
 
-console.log(reverse(
-  [[5, 1, 9, 11],
-  [2, 4, 8, 10],
-  [13, 3, 6, 7],
-  [15, 14, 12, 16]]
-));
+console.log(test(["flower", "flow", "flight"]));
