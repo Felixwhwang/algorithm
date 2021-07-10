@@ -19,4 +19,4 @@ const MergeSort = arr => {
   return merge(MergeSort(left), MergeSort(arr));
 }
 
-console.log(MergeSort([2, 1, 3, 6, 12, 1, 4, 45, 12, 0, 39, 9]));
+console.log(MergeSort([2, 1, 3, 6, 12, 12, 0, 39, 9]));
